@@ -1,0 +1,34 @@
+state={
+	id=940
+	name="STATE_940"
+	resources={
+		tungsten=2.000
+		steel=10
+	}
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1244 = {
+				naval_base = 2
+			}
+
+		}
+		victory_points = {
+			1244 4
+		}
+		victory_points = {
+			10293 2
+		}
+		add_core_of = KSK
+
+	}
+	provinces={
+		1244 4433 7225 7292 10293 12224 
+	}
+	manpower=683000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

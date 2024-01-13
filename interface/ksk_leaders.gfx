@@ -1,0 +1,167 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_KSK_hitori_gotoh"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_hitori_gotoh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_hitori_gotoh_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_hitori_gotoh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_ryo_yamada"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_ryo_yamada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_ryo_yamada_cool"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_ryo_yamada_cool.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_ryo_yamada_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_ryo_yamada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_nijika_ijichi"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_nijika_ijichi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_unholy_duo"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_unholy_duo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_nijika_ijichi_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_nijika_ijichi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_kita_ikuyo"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_kita_ikuyo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_kita_ikuyo_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_kita_ikuyo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_seika_ijichi"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_seika_ijichi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_seika_ijichi_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_seika_ijichi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_pa_san"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_pa_san.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_pa_san_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_pa_san.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_kikuri_hiroi"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_kikuri_hiroi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_kikuri_hiroi_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_kikuri_hiroi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_futari_gotoh"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_futari_gotoh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_futari_gotoh_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_futari_gotoh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_eliza"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_eliza.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_eliza_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_eliza.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_jimihen"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_jimihen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_jimihen_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_jimihen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_fan_one_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_fan_one.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_fan_two_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_fan_two.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_store_clerk_one_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_store_clerk_one.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_store_clerk_two_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_store_clerk_two.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_shima_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_shima.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_classmate_one_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_classmate_two.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_classmate_two_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_classmate_one.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_gin_san_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_gin_san.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_naoki"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_naoki_gotoh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_michiyo"
+		texturefile = "gfx/leaders/KSK/portrait_ksk_michiyo_gotoh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KSK_michiyo_small"
+		texturefile = "gfx/interface/ideas/idea_KSK_michiyo.dds"
+	}
+}

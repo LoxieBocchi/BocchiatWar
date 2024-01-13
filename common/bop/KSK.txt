@@ -1,0 +1,106 @@
+KSK_balance = {
+	initial_value = 0
+	left_side = ryo_side
+	right_side = nijika_side
+	decision_category = KSK_nijiryo_balance_power_category
+	range = {
+		id = KSK_neutral_balance
+		min = -0.1
+		max = 0.1
+		modifier = {
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+	side = {
+		id = ryo_side
+		icon = GFX_bop_KSK_ryo_side
+		range = {
+			id = KSK_ryo_low_control
+			min = -0.1
+			max = -0.3
+			modifier = {
+				war_support_weekly = 0.005
+				stability_factor = -0.05
+			}
+		}
+		range = {
+			id = KSK_ryo_medium_control
+			min = -0.3
+			max = -0.6
+			modifier = {
+				war_support_weekly = 0.1
+				experience_gain_army = 0.1
+				stability_factor = -0.1
+			}
+		}
+		range = {
+			id = KSK_ryo_high_control
+			min = -0.6
+			max = -0.9
+			modifier = {
+				war_support_weekly = 0.02
+				experience_gain_army = 0.2
+				stability_factor = -0.15
+			}
+		}
+		range = {
+			id = KSK_ryo_total_control
+			min = -0.9
+			max = -1
+			modifier = {
+				war_support_weekly = 0.025
+				experience_gain_army = 0.4
+				stability_factor = -0.2
+			}
+		}
+	}
+	side = {
+		id = nijika_side
+		icon = GFX_bop_KSK_nijika_side
+		range = {
+			id = KSK_nijika_low_control
+			min = 0.1
+			max = 0.3
+			modifier = {
+				stability_weekly = 0.005
+				war_support_factor = -0.05
+			}
+		}
+		range = {
+			id = KSK_nijika_medium_control
+			min = 0.3
+			max = 0.6
+			modifier = {
+				stability_weekly = 0.01
+				political_power_gain = 0.05
+				war_support_factor = -0.1
+			}
+		}
+		range = {
+			id = KSK_nijika_high_control
+			min = 0.6
+			max = 0.9
+			modifier = {
+				stability_weekly = 0.02
+				political_power_gain = 0.1
+				war_support_factor = -0.15
+			}
+		}
+		range = {
+			id = KSK_nijika_total_control
+			min = 0.9
+			max = 1
+			modifier = {
+				stability_weekly = 0.025
+				political_power_gain = 0.2
+				war_support_factor = -0.2
+			}
+		}
+	}
+}
+

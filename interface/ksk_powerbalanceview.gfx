@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bop_KSK_nijika_side"
+		texturefile = "gfx/interface/bop/bop_KSK_nijika_side.dds"
+	}
+
+	spriteType = {
+		name = "GFX_bop_KSK_ryo_side"
+		texturefile = "gfx/interface/bop/bop_KSK_ryo_side.dds"
+	}
+}

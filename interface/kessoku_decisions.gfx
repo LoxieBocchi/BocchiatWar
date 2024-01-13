@@ -1,0 +1,14 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_decision_category_operation_noko"
+		texturefile = "gfx/interface/decisions/decision_category_operation_noko"
+	}
+	spriteType = {
+		name = "GFX_decision_category_invites"
+		texturefile = "gfx/interface/decisions/decision_category_invite_leaders_ksk"
+	}
+	spriteType = {
+		name = "GFX_decision_devalue_ryo"
+		texturefile = "gfx/interface/decisions/decision_devalue_ryo.dds"
+	}
+}

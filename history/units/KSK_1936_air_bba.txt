@@ -1,0 +1,19 @@
+﻿#AIRCRAFT
+air_wings = {
+	### IJA Air Forces ###
+	# 2 Hikodan -- Dalian
+	7303 = {
+		# 3 Hiko Rentai -- Kawasaki Ki-10
+		small_plane_airframe_0 = {
+			owner = "KSK" 
+			amount = 100
+			version_name = "Ki-10"
+		}
+	}
+}
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+}

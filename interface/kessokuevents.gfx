@@ -1,0 +1,211 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_kita_rid"
+		texturefile = "gfx/event_pictures/kita_rid.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_rid"
+		texturefile = "gfx/event_pictures/ryo_rid.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_rid"
+		texturefile = "gfx/event_pictures/nijika_rid.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kita_invite"
+		texturefile = "gfx/event_pictures/kita_invite.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_invite"
+		texturefile = "gfx/event_pictures/ryo_invite.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_invite"
+		texturefile = "gfx/event_pictures/nijika_invite.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_shimokitazawa_fall"
+		texturefile = "gfx/event_pictures/fall_shimokita.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_hitori_reincarnated"
+		texturefile = "gfx/event_pictures/hitori_reincarnated.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_happy_bocchi"
+		texturefile = "gfx/event_pictures/bocchi_happy.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_nervous_bocchi"
+		texturefile = "gfx/event_pictures/bocchi_nervous.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_goodbye_bocchi"
+		texturefile = "gfx/event_pictures/bocchi_goodbye.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_ryo1"
+		texturefile = "gfx/event_pictures/nijika_ryo1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_ryo2"
+		texturefile = "gfx/event_pictures/nijika_ryo2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_beg"
+		texturefile = "gfx/event_pictures/ryo_beg.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_group_photo"
+		texturefile = "gfx/event_pictures/group_photo.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_duo_conflict"
+		texturefile = "gfx/event_pictures/duo_conflict.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_anxiety_1"
+		texturefile = "gfx/event_pictures/bocchi_anxiety_1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_anxiety_2"
+		texturefile = "gfx/event_pictures/bocchi_anxiety_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_anxiety_3"
+		texturefile = "gfx/event_pictures/bocchi_anxiety_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_cool"
+		texturefile = "gfx/event_pictures/bocchi_cool_event.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_nijika_ryo_conflict"
+		texturefile = "gfx/event_pictures/nijika_ryo_conflict.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_fallen_angel"
+		texturefile = "gfx/event_pictures/nijika_fallen_angel.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_questions_start"
+		texturefile = "gfx/event_pictures/nijika_questions_start.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_questions_2"
+		texturefile = "gfx/event_pictures/nijika_questions_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_questions_3"
+		texturefile = "gfx/event_pictures/nijika_questions_3.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_questions_4"
+		texturefile = "gfx/event_pictures/nijika_questions_4.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_questions_final"
+		texturefile = "gfx/event_pictures/nijika_questions_final.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_money"
+		texturefile = "gfx/event_pictures/ryo_money.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kitaura"
+		texturefile = "gfx/event_pictures/kitaura.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_money_2"
+		texturefile = "gfx/event_pictures/ryo_money_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijiryo_table"
+		texturefile = "gfx/event_pictures/nijiryo_table.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_angry"
+		texturefile = "gfx/event_pictures/nijika_angry.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_nijika_angel"
+		texturefile = "gfx/event_pictures/angel_nijika_news.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_bokita_wtf"
+		texturefile = "gfx/event_pictures/bokita_wtf_say_gex.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kitaura"
+		texturefile = "gfx/event_pictures/kitaura_news.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kita_wha"
+		texturefile = "gfx/event_pictures/kita_wha.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_angry_2"
+		texturefile = "gfx/event_pictures/nijika_angry_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_poker"
+		texturefile = "gfx/event_pictures/ryo_poker.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_poker_2"
+		texturefile = "gfx/event_pictures/ryo_poker_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kita_fear"
+		texturefile = "gfx/event_pictures/kita_fear.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_paragon"
+		texturefile = "gfx/event_pictures/nijika_paragon.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_blush"
+		texturefile = "gfx/event_pictures/bocchi_blush.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kikuri"
+		texturefile = "gfx/event_pictures/kikuri_event.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_seika"
+		texturefile = "gfx/event_pictures/seika_event.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_pa_san"
+		texturefile = "gfx/event_pictures/pa_san_event.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_space"
+		texturefile = "gfx/event_pictures/nijika_space.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kessoku_poverty"
+		texturefile = "gfx/event_pictures/kessoku_poverty.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_shock"
+		texturefile = "gfx/event_pictures/bocchi_shock.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_kita_poverty"
+		texturefile = "gfx/event_pictures/kita_poverty.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ryo_oops"
+		texturefile = "gfx/event_pictures/ryo_oops.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nijika_eh"
+		texturefile = "gfx/event_pictures/nijika_eh.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bocchi_autobohcchi"
+		texturefile = "gfx/event_pictures/bocchi_autobohcchi.dds"
+	}
+}

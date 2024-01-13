@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Loyalists"
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Loyalist"
+		location = 1423
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "2. Loyalist"
+		location = 12133
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "3. Loyalist"
+		location = 7303  # Ulm
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "4. Loyalist"
+		location = 4341
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "5. Loyalist"
+		location = 7432
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "6. Loyalist"
+		location = 7404
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "7. Loyalist"
+		location = 10289
+		division_template = "Loyalists"
+	}
+	division = {
+		name = "8. Loyalist"
+		location = 7376
+		division_template = "Loyalists"
+	}
+}

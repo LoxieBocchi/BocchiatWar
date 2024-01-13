@@ -1,0 +1,44 @@
+on_actions = {
+	on_startup = {
+        effect = { 
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                country_event = kessoku.60
+            }
+        }
+    }
+	on_weekly_KSK = {
+		random_events = {
+			1 = kessoku.57
+			1 = kessoku.59
+			1 = kessoku.61
+			1 = kessoku.62
+			1 = kessoku.63
+			1 = kessoku.64
+			1 = kessoku.65
+			1 = kessoku.73
+			1 = kessoku.81
+			1 = kessoku.85
+			90 = 0
+        }
+		effect = { }
+	}
+	on_monthly_KSK = {
+		random_events = {
+			3 = kessoku.58
+			3 = kessoku.66
+			3 = kessoku.67
+			3 = kessoku.68
+			3 = kessoku.69
+			3 = kessoku.70
+			3 = kessoku.77
+			3 = kessoku.78
+			3 = kessoku.79
+			3 = kessoku.80
+			70 = 0
+        }
+		effect = { }
+	}
+}

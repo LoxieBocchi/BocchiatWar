@@ -1,0 +1,26 @@
+state={
+	id=938
+	name="STATE_938"
+	history={
+		owner = KSK
+		add_core_of = KSK
+		add_core_of = VIN
+		victory_points = {
+			12204 10
+		}
+		victory_points = {
+			10204 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1285 1605 7271 7347 10162 10204 10232 12150 12176 12204 
+	}
+	manpower=2602031
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

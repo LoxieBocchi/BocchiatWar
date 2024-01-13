@@ -1,0 +1,36 @@
+state={
+	id=936
+	name="STATE_936"
+	history={
+		owner = KSK
+		add_core_of = KSK
+		add_core_of = CAM
+		victory_points = {
+			7432 15
+		}
+		victory_points = {
+			4223 5
+		}
+		victory_points = {
+			7376 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			arms_factory = 1
+			7432 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	provinces={
+		4223 7376 7404 7432 10289 10317 
+	}
+	manpower=3100500
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

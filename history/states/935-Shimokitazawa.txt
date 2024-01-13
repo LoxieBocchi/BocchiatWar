@@ -1,0 +1,31 @@
+state={
+	id=935
+	name="STATE_935"
+	history={
+		owner = KSK
+		add_core_of = KSK
+		victory_points = {
+			7303 30
+		}
+		victory_points = {
+			4341 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			7303 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces={
+		1423 4284 4341 7303 7331 12133 
+	}
+	manpower=5600000
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

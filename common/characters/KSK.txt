@@ -1,0 +1,489 @@
+characters={
+	KSK_hitori_gotoh={
+		name=KSK_CHARACTER_HITORI
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_hitori_gotoh
+				small=GFX_portrait_KSK_hitori_gotoh_small
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			desc = KSK_HITORI_DESC
+			expire="1989.1.1.1"
+			traits = { social_anxiety }
+		}
+	}
+	KSK_ryo_yamada={
+		name=KSK_CHARACTER_RYO
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_ryo_yamada_cool
+				small=GFX_portrait_KSK_ryo_yamada_small
+			}
+			army={
+				large=GFX_portrait_KSK_ryo_yamada
+			}
+		}
+		country_leader={
+			ideology=nazism
+			desc = KSK_RYO_DESC
+			expire="1989.1.1.1"
+		}
+	}
+	KSK_kita_ikuyo={
+		name=KSK_CHARACTER_KITA
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_kita_ikuyo
+				small=GFX_portrait_KSK_kita_ikuyo_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			desc = KSK_KITA_DESC
+			expire="1989.1.1.1"
+			traits = { kitaura_small }
+		}	
+	}
+	PHI_kita_ikuyo_philippines={
+		name=KSK_CHARACTER_KITA
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_kita_ikuyo
+				small=GFX_portrait_KSK_kita_ikuyo_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			desc = KSK_KITA_DESC
+			expire="1989.1.1.1"
+			traits = { kitaura_small }
+		}	
+	}
+	KSK_kita_ikuyo_communist={
+		name=KSK_CHARACTER_KITA
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_kita_ikuyo
+				small=GFX_portrait_KSK_kita_ikuyo_small
+			}
+		}
+		country_leader={
+			ideology=marxism
+			desc = KSK_KITA_DESC
+			expire="1989.1.1.1"
+		}
+	}
+	KSK_nijika_ijichi={
+		name=KSK_CHARACTER_NIJIKA
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_nijika_ijichi
+				small=GFX_portrait_KSK_nijika_ijichi_small
+			}
+		}
+		country_leader={
+			ideology=falangism
+			desc = KSK_NIJIKA_DESC
+			expire="1989.1.1.1"
+		}
+	}
+	KSK_unholy_duo={
+		name=KSK_CHARACTER_UNHOLY_DUO
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_unholy_duo
+			}
+		}
+		country_leader={
+			ideology=falangism
+			desc = KSK_UNHOLY_DUO_DESC
+			expire="1989.1.1.1"
+			traits = { angelical_spirit_small weed_eater_small }
+		}
+	}
+	KSK_seika_ijichi={
+		name=KSK_CHARACTER_SEIKA
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_seika_ijichi
+				small=GFX_portrait_KSK_seika_ijichi_small
+			}
+			army={
+				large=GFX_portrait_KSK_seika_ijichi
+				small=GFX_portrait_KSK_seika_ijichi_small
+			}
+		}
+		country_leader={
+			ideology=falangism
+			desc = KSK_SEIKA_DESC
+			expire="1989.1.1.1"
+			traits = {
+				starry_manager_hc
+			}
+		}
+		corps_commander={
+			traits={ 
+				revolt_safe
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = ksk_seika_command
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				starry_manager_hc 
+			}
+		}
+	}
+	KSK_pa_san={
+		name=KSK_CHARACTER_PASAN
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_pa_san
+				small=GFX_portrait_KSK_pa_san_small
+			}
+			army = {
+				large=GFX_portrait_KSK_pa_san
+				small=GFX_portrait_KSK_pa_san_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_pa_san_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				v_tuber
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	KSK_futari_gotoh={
+		name=KSK_CHARACTER_FUTARI
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_futari_gotoh
+				small=GFX_portrait_KSK_futari_gotoh_small
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			desc = KSK_FUTARI_DESC
+			expire="1989.1.1.1"
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_futari_gotoh_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				wolf_sheep_clothing
+			}
+		}
+	}
+	KSK_jimihen={
+		name=KSK_CHARACTER_JIMIHEN
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_jimihen
+				small=GFX_portrait_KSK_jimihen_small
+			}
+			army = {
+				large=GFX_portrait_KSK_jimihen
+				small=GFX_portrait_KSK_jimihen_small
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			desc = KSK_JIMIHEN_DESC
+			expire="1989.1.1.1"
+		}
+		advisor={
+			slot = theorist
+			idea_token = ksk_jimihen_advisor
+			ledger = army
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			research_bonus = {
+				nuclear = 0.150
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+	KSK_kikuri_hiroi={
+		name=KSK_CHARACTER_KIKURI
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_kikuri_hiroi
+				small=GFX_portrait_KSK_kikuri_hiroi_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_kikuri_hiroi_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				drunken_strategy
+				revolt_safe
+			}
+		}
+		corps_commander={
+			traits={ drunken_strategy_unit }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	KSK_eliza={
+		name=KSK_CHARACTER_ELIZA
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_eliza
+				small=GFX_portrait_KSK_eliza_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_eliza_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				british_foreigner
+			}
+		}
+	}
+	KSK_fan_one={
+		name=KSK_CHARACTER_FAN_ONE
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_fan_one_small
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ksk_fan_one_hc
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+				KSK_hitori_gotoh = {
+					is_country_leader = yes
+				}
+			}
+			traits = {
+				army_logistics_1
+			}
+		}
+	}
+	KSK_fan_two={
+		name=KSK_CHARACTER_FAN_TWO
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_fan_two_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_fan_two_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+				KSK_hitori_gotoh = {
+					is_country_leader = yes
+				}
+			}
+			traits = {
+				hitori_lover
+			}
+		}
+	}
+	KSK_store_clerk_one={
+		name=KSK_CHARACTER_STORE_ONE
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_store_clerk_one_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_store_clerk_one_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+	KSK_store_clerk_two={
+		name=KSK_CHARACTER_STORE_TWO
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_store_clerk_two_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_store_clerk_two_advisor
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+	KSK_shima={
+		name=KSK_CHARACTER_SHIMA
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_shima_small
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ksk_shima_hc_idea
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				army_infantry_1
+			}
+		}
+	}
+	KSK_gin_san={
+		name=KSK_CHARACTER_GIN
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_gin_san_small
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = ksk_gin_san_air_idea
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				air_chief_reform_2
+			}
+		}
+	}
+	KSK_classmate_one={
+		name=KSK_CHARACTER_CLASSONE
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_classmate_one_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ksk_classmate_one_advisor_idea
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	KSK_classmate_two={
+		name=KSK_CHARACTER_CLASSTWO
+		gender = female
+		portraits={
+			civilian={
+				small=GFX_portrait_KSK_classmate_two_small
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = ksk_classmate_two_navy_idea
+			can_be_fired = yes
+			allowed = {
+				original_tag = KSK
+			}
+			traits = {
+				navy_chief_naval_aviation_1
+			}
+		}
+	}
+	KSK_naoki={
+		name=KSK_CHARACTER_NAOKI
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_naoki
+			}
+			army={
+				large=GFX_portrait_KSK_naoki
+			}
+		}
+	}
+	KSK_michiyo={
+		name=KSK_CHARACTER_MICHIYO
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_KSK_michiyo
+				small=GFX_portrait_KSK_michiyo_small
+			}
+		}
+	}
+}

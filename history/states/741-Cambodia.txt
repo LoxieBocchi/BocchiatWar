@@ -1,0 +1,30 @@
+
+state={
+	id=741
+	name="STATE_741"
+
+	history={
+		owner = KSK
+		add_core_of = KSK
+		add_core_of = CAM
+		victory_points = {
+			10177 10
+		}
+		victory_points = {
+			4359 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1353 4251 4359 5236 7319 10134 10177 12191 
+	}
+	manpower=2010050
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,73 @@
+﻿division_template = {
+	name = "Weeders"
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Weeder"
+		location = 4302
+		division_template = "Weeders"
+	}
+	division = {
+		name = "2. Weeder"
+		location = 1353
+		division_template = "Weeders"
+	}
+	division = {
+		name = "3. Weeder"
+		location = 12191  # Ulm
+		division_template = "Weeders"
+	}
+	division = {
+		name = "4. Weeder"
+		location = 7319
+		division_template = "Weeders"
+	}
+	division = {
+		name = "5. Weeder"
+		location = 7645
+		division_template = "Weeders"
+	}
+	division = {
+		name = "6. Weeder"
+		location = 12475
+		division_template = "Weeders"
+	}
+	division = {
+		name = "7. Weeder"
+		location = 12460
+		division_template = "Weeders"
+	}
+	division = {
+		name = "8. Weeder"
+		location = 5236
+		division_template = "Weeders"
+	}
+	division = {
+		name = "9. Weeder"
+		location = 4639  
+		division_template = "Weeders"
+	}
+	division = {
+		name = "10. Weeder"
+		location = 12475
+		division_template = "Weeders"
+	}
+	division = {
+		name = "11. Weeder"
+		location = 4639  
+		division_template = "Weeders"
+	}
+	division = {
+		name = "12. Weeder"
+		location = 12475
+		division_template = "Weeders"
+	}
+}

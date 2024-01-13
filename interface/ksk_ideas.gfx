@@ -1,0 +1,63 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_ksk_unpopular"
+		texturefile = "gfx/interface/ideas/idea_ksk_unpopular.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ksk_powerless"
+		texturefile = "gfx/interface/ideas/idea_ksk_powerless.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ksk_economy_crisis"
+		texturefile = "gfx/interface/ideas/idea_ksk_economy_shambles.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ksk_army_crisis"
+		texturefile = "gfx/interface/ideas/idea_ksk_army_shambles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_hero_guitar"
+		texturefile = "gfx/interface/ideas/idea_ksk_hero_guitar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_band_icon"
+		texturefile = "gfx/interface/ideas/idea_ksk_kessoku_band.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_god"
+		texturefile = "gfx/interface/ideas/idea_ksk_god_kessoku"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_bocchi_spirit"
+		texturefile = "gfx/interface/ideas/idea_KSK_hitori_gotoh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_ryo_greedy_bitch"
+		texturefile = "gfx/interface/ideas/idea_ksk_ryo_greedy_bitch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_nijika_greedy_bitch"
+		texturefile = "gfx/interface/ideas/idea_ksk_nijika_greedy_bitch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_economy_crisis_worker_incentive"
+		texturefile = "gfx/interface/ideas/idea_ksk_worker_incentive.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_economy_crisis_local_production"
+		texturefile = "gfx/interface/ideas/idea_ksk_local_produce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gibson"
+		texturefile = "gfx/interface/ideas/idea_gibson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yamaha"
+		texturefile = "gfx/interface/ideas/idea_yamaha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ksk_starry"
+		texturefile = "gfx/interface/ideas/idea_ksk_starry.dds"
+	}
+}

@@ -1,0 +1,2692 @@
+KSK_leader_operations_category = {
+	KSK_kita_rid = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_government = fascism }
+			has_completed_focus = KSK_hunt_groups_leaders
+		}
+		
+		cost = 25
+		
+		complete_effect = {
+			country_event = {
+				id = kessoku.1
+				days = 1
+				random_hours = 12
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_ryo_rid = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_government = fascism }
+			has_completed_focus = KSK_hunt_groups_leaders
+		}
+		
+		cost = 25
+		
+		complete_effect = {
+			country_event = {
+				id = kessoku.2
+				days = 1
+				random_hours = 12
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_nijika_rid = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_government = fascism }
+			has_completed_focus = KSK_hunt_groups_leaders
+		}
+		
+		cost = 25
+		
+		complete_effect = {
+			country_event = {
+				id = kessoku.3
+				days = 1
+				random_hours = 12
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_leader_invites_category = {
+	KSK_invite_kita = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_government = fascism }
+			has_completed_focus = KSK_invite_leaders_groups
+		}
+		
+		cost = 25
+		
+		complete_effect = {
+			country_event = {
+				id = kessoku.4
+				days = 1
+				random_hours = 12
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_invite_ryo = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_government = fascism }
+			has_completed_focus = KSK_invite_leaders_groups 
+		}
+		
+		cost = 25
+		
+		complete_effect = {
+			country_event = {
+				id = kessoku.5
+				days = 1
+				random_hours = 12
+			}
+			hidden_effect = {
+				country_event = {
+					id = kessoku.42
+					days = 7
+					random_hours = 12
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_invite_nijika = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_government = fascism }
+			has_completed_focus = KSK_invite_leaders_groups
+		}
+		
+		cost = 25
+		
+		complete_effect = {
+			country_event = {
+				id = kessoku.6
+				days = 1
+				random_hours = 12
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_indochina_ultimatum_category = {
+	KSK_send_indochina_ultimatum = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_france_intervention
+		}
+		
+		cost = 30
+		
+		complete_effect = {
+			671  = {
+				owner = {
+					country_event = {
+					id = kessoku.7
+					random_hours = 12
+					}
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_war_indochina_category = {
+	KSK_proclaim_victory = {
+		icon = GFX_decision_category_generic_political_actions
+		allowed = {
+			original_tag = KSK
+		}
+		
+		visible = {
+			has_country_flag = ksk_indochina_war
+		}
+		
+		available = {
+			controls_province = 4075
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = "KSK_war_indochina_tt"
+			FRA = { country_event = { id = war_ksk.1 } }
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { base = 10 }
+	}
+	KSK_offer_peace = {
+		icon = GFX_decision_category_generic_political_actions
+		allowed = {
+			original_tag = KSK
+		}
+		
+		visible = {
+			has_global_flag = ksk_war_flag
+		}
+		
+		available = {
+			controls_state = 728
+		}
+		
+		complete_effect = {
+			FRA = { country_event = { id = war_ksk.2 } }
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { base = 10 }
+	}
+}
+KSK_religion_unite_category = {
+	KSK_convert_shimokitazawa = {
+		icon = GFX_decision_icon_default
+		highlight_states = {
+			highlight_state_targets = {
+				state = 935
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+			}
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 75
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = -0.2
+		}
+		
+		remove_effect = {
+			set_country_flag = shimokita_converted
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
+		
+		complete_effect = {
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_convert_angelica = {
+		icon = GFX_decision_icon_default
+		highlight_states = {
+			highlight_state_targets = {
+				state = 936
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+			}
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 50
+		days_remove = 50
+		
+		remove_effect = {
+			set_country_flag = angelica_converted
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
+		
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = -0.15
+		}
+		
+		complete_effect = {
+			
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_convert_yoyichi = {
+		icon = GFX_decision_icon_default
+		highlight_states = {
+			highlight_state_targets = {
+				state = 936
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+			}
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 40
+		days_remove = 40
+		
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			set_country_flag = yoyichi_converted
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
+		
+		complete_effect = {
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_convert_tengoku = {
+		icon = GFX_decision_icon_default
+		highlight_states = {
+			highlight_state_targets = {
+				state = 938
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+			}
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 30
+		days_remove = 30
+		
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			set_country_flag = tengoku_converted
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
+		
+		complete_effect = {
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_convert_fuan = {
+		icon = GFX_decision_icon_default
+		highlight_states = {
+			highlight_state_targets = {
+				state = 939
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+			}
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 20
+		days_remove = 30
+		
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			set_country_flag = fuan_converted
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
+		
+		complete_effect = {
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_convert_cambodia = {
+		icon = GFX_decision_icon_default
+		highlight_states = {
+			highlight_state_targets = {
+				state = 741
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+			}
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 20
+		days_remove = 30
+		
+		modifier = {
+			stability_weekly = -0.005
+			political_power_factor = -0.1
+		}
+		
+		remove_effect = {
+			set_country_flag = cambodia_converted
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
+		
+		complete_effect = {
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_defacto_religion = {
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_country_flag = cambodia_converted
+			has_country_flag = fuan_converted
+			has_country_flag = angelica_converted
+			has_country_flag = shimokita_converted
+			has_country_flag = yoyichi_converted
+			has_country_flag = tengoku_converted
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_unite_religion
+		}
+		
+		cost = 50
+		days_remove = 14
+		
+		remove_effect = {
+			set_country_flag = kessoku_converted
+			add_stability = 0.05
+		}
+		
+		complete_effect = {
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_social_anxiety_category = {
+	KSK_social_anxiety_1 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			KSK_hitori_gotoh = {
+				has_trait = social_anxiety
+			}
+		}
+		
+		cost = 25
+		days_remove = 30
+		
+		remove_effect = {
+			country_event = { id = kessoku.19 }
+			hidden_effect = {
+				KSK_hitori_gotoh = {
+					swap_country_leader_traits = {
+						remove = social_anxiety
+						add = social_anxiety_2
+						ideology = oligarchism
+					}
+				}
+			}
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = KSK_bocchi_anxiety_1_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_social_anxiety_2 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			KSK_hitori_gotoh = {
+				has_trait = social_anxiety_2
+			}
+		}
+		
+		cost = 30
+		days_remove = 30
+		
+		remove_effect = {
+			country_event = { id = kessoku.20 }
+			hidden_effect = {
+				KSK_hitori_gotoh = {
+					swap_country_leader_traits = {
+						remove = social_anxiety_2
+						add = social_anxiety_3
+						ideology = oligarchism
+					}
+				}
+			}
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = KSK_bocchi_anxiety_1_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_social_anxiety_3 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			KSK_hitori_gotoh = {
+				has_trait = social_anxiety_3
+			}
+		}
+		
+		cost = 35
+		days_remove = 30
+		
+		remove_effect = {
+		country_event = { id = kessoku.21 }
+			hidden_effect = {
+				KSK_hitori_gotoh = {
+					swap_country_leader_traits = {
+						remove = social_anxiety_3
+						add = social_anxiety_4
+						ideology = oligarchism
+					}
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = KSK_bocchi_anxiety_1_tt
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_social_anxiety_4 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			KSK_hitori_gotoh = {
+				has_trait = social_anxiety_4
+			}
+		}
+		
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			country_event = { id = kessoku.22 }
+			hidden_effect = {
+				KSK_hitori_gotoh = {
+					swap_country_leader_traits = {
+						remove = social_anxiety_4
+						add = unseishuned_complex
+						ideology = oligarchism
+					}
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = KSK_bocchi_anxiety_2_tt
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_guarantee_presidency_category = {
+	KSK_rig_elections = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = ksk_kita_legal
+			}
+			custom_trigger_tooltip = KSK_rig_elections_tt
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = {
+				has_country_flag = ksk_kita_legal
+			}
+			has_country_flag = kita_presidency			
+		}
+		
+		days_remove = 30
+		cost = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = KSK_rig_elections_tt
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_stability = -0.05
+			set_country_flag = ksk_rig_elections_done
+			set_country_flag = ksk_kita_president
+		}
+		
+		complete_effect = {
+			set_country_flag = ksk_kita_illegal
+			custom_effect_tooltip = KSK_rig_elections_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_seek_support = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = ksk_kita_illegal
+			}
+			custom_effect_tooltip = KSK_seek_support_tt
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			NOT = { has_country_flag = ksk_kita_illegal }
+			has_country_flag = kita_presidency
+		}
+		
+		days_remove = 75
+		cost = 75
+		
+		remove_effect = {
+			custom_effect_tooltip = KSK_seek_support_tt
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.35
+			}
+			set_country_flag = ksk_seek_support_done
+			add_stability = 0.05
+			set_country_flag = ksk_kita_president
+		}
+		
+		complete_effect = {
+			set_country_flag = ksk_kita_legal
+			custom_effect_tooltip = KSK_seek_support_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_filipino_rescue_category = {
+	KSK_rescue_filipines = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			PHI = {
+				OR = {
+					has_war_with = AST
+					has_war_with = ENG
+					has_war_with = JAP
+					has_war_with = CHI
+					has_war_with = PRC
+					AND = {
+                        is_puppet_of = USA
+                        is_subject_of = USA
+					}
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_filipino_rescue			
+		}
+		
+		cost = 50
+		
+		complete_effect = {
+			annex_country = {
+				target = PHI
+				transfer_troops = yes
+			}
+			set_country_flag = filipine_ryover
+			hidden_effect = {
+				remove_state_core = 623
+				remove_state_core = 327
+				remove_state_core = 624
+				remove_state_core = 625
+				remove_state_core = 628
+				remove_state_core = 627
+				remove_state_core = 626
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_core_filipines = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_completed_focus = KSK_kita_filipino
+			OR = {
+				controls_state = 627
+				controls_state = 628
+				controls_state = 625
+				controls_state = 624
+				controls_state = 625
+				controls_state = 327
+				controls_state = 623
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_country_flag = filipine_ryover
+		}
+		
+		cost = 300
+		
+		complete_effect = {
+			set_country_flag = filipine_ryover_fr
+			add_state_core = 623
+			add_state_core = 327
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 628
+			add_state_core = 627
+			add_state_core = 626
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_kita_ryo_decisions_category = {
+	KSK_kita_infrastructure_1 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_opinion = {
+				target = USA
+				value > 50
+			}
+			KSK_ryo_yamada = {
+				is_political_advisor = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_kita_ryo_decisions			
+		}
+		
+		days_remove = 50
+		cost = 75
+		
+		remove_effect = {
+			custom_effect_tooltip = KSK_rig_infrastructure_tt
+			country_event = kessoku.25
+			clr_country_flag = ryo_doing_shit
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = KSK_rig_infrastructure_tt
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_kita_industrial_1 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_opinion = {
+				target = USA
+				value > 50
+			}
+			KSK_ryo_yamada = {
+				is_political_advisor = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_kita_ryo_decisions			
+		}
+		
+		days_remove = 40
+		cost = 50
+		
+		remove_effect = {
+			clr_country_flag = ryo_doing_shit
+			country_event = kessoku.26
+		}
+		
+		complete_effect = {
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_kita_industrial_2 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_opinion = {
+				target = USA
+				value > 50
+			}
+			KSK_ryo_yamada = {
+				is_political_advisor = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_kita_ryo_decisions			
+		}
+		
+		days_remove = 40
+		cost = 50
+		
+		remove_effect = {
+			clr_country_flag = ryo_doing_shit
+			country_event = kessoku.26
+		}
+		
+		complete_effect = {
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_kita_nuclear_1 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_opinion = {
+				target = USA
+				value > 50
+			}
+			KSK_ryo_yamada = {
+				is_political_advisor = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+			OR = {
+				USA = {		
+					has_tech = nuclear_reactor
+				}
+				KSK = {
+					has_tech = nuclear_reactor
+				}
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_nuclear_kita			
+		}
+		
+		days_remove = 100
+		cost = 100
+		
+		remove_effect = {
+			clr_country_flag = ryo_doing_shit
+			country_event = kessoku.27
+		}
+		
+		complete_effect = {
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_ryo_stealing_guns_category = {
+	KSK_steal_guns_shs = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = ksk_stealing
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_civil_war = yes
+			has_completed_focus = KSK_steal_equipment_ryo
+			has_government = fascism
+			SHS = {
+				exists = yes
+			}
+		}
+		
+		days_remove = 21
+		cost = 25
+		
+		complete_effect = {
+			set_country_flag = ksk_stealing
+		}
+		
+		remove_effect = {
+			clr_country_flag = ksk_stealing
+			SHS = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -2000
+				}
+			}
+			ROOT = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2000
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_steal_guns_futari = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = ksk_stealing
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_civil_war = yes
+			has_completed_focus = KSK_steal_equipment_ryo
+			has_government = fascism
+			SHS = {
+				exists = yes
+			}
+		}
+		
+		days_remove = 21
+		cost = 25
+		
+		complete_effect = {
+			set_country_flag = ksk_stealing
+		}
+		
+		remove_effect = {
+			clr_country_flag = ksk_stealing
+			random_other_country = {
+					limit = {
+						original_tag = KSK
+						has_government = neutrality
+					}
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -2000
+					}
+				}
+			ROOT = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2000
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_ryo_decisions_category = {
+	KSK_ryo_infrastructure_1 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			KSK_ryo_yamada = {
+				is_country_leader = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_ryo_building_stuff			
+		}
+		
+		days_remove = 50
+		cost = 75
+		
+		remove_effect = {
+			custom_effect_tooltip = KSK_rig_infrastructure_tt
+			country_event = kessoku.34
+			clr_country_flag = ryo_doing_shit
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = KSK_rig_infrastructure_tt
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_ryo_industrial_1 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			KSK_ryo_yamada = {
+				is_country_leader = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_ryo_building_stuff			
+		}
+		
+		days_remove = 40
+		cost = 50
+		
+		remove_effect = {
+			clr_country_flag = ryo_doing_shit
+			country_event = kessoku.35
+		}
+		
+		complete_effect = {
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_ryo_industrial_2 = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			KSK_ryo_yamada = {
+				is_country_leader = yes
+			}
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_ryo_building_stuff			
+		}
+		
+		days_remove = 40
+		cost = 50
+		
+		remove_effect = {
+			clr_country_flag = ryo_doing_shit
+			country_event = kessoku.35
+		}
+		
+		complete_effect = {
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_ryo_nuclear = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			KSK_ryo_yamada = {
+				is_country_leader = yes
+			}
+			has_tech = nuclear_reactor
+			NOT = {
+				has_country_flag = ryo_doing_shit
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			has_completed_focus = KSK_ryo_nuclear_stuff		
+		}
+		
+		days_remove = 100
+		cost = 100
+		
+		remove_effect = {
+			clr_country_flag = ryo_doing_shit
+			country_event = kessoku.33
+		}
+		
+		complete_effect = {
+			set_country_flag = ryo_doing_shit
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_nijiryo_balance_power_category = {
+	KSK_powerup_ryo = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = powering_up_kessoku
+			}
+		}
+		
+		visible = {
+			has_completed_focus = KSK_nijiryo_balance_power
+		}
+		
+		days_remove = 21
+		cost = 55
+		
+		remove_effect = {
+			clr_country_flag = powering_up_kessoku
+		}
+		
+		complete_effect = {
+			add_power_balance_value = {
+				id = KSK_balance
+				value = -0.15
+			}
+			set_country_flag = powering_up_kessoku
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_powerup_nijika = {
+	
+		icon = GFX_decision_icon_default
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = powering_up_kessoku
+			}
+		}
+		
+		visible = {
+			has_completed_focus = KSK_nijiryo_balance_power
+		}
+		
+		days_remove = 21
+		cost = 55
+		
+		remove_effect = {
+			clr_country_flag = powering_up_kessoku
+		}
+		
+		complete_effect = {
+			add_power_balance_value = {
+				id = KSK_balance
+				value = 0.15
+			}
+			set_country_flag = powering_up_kessoku
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+KSK_country_war_plans_category = {
+    KSK_operation_tea_crunpets = {
+		icon = generic_operation
+		available = {
+			has_war_with = ENG
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = ENG
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_cheeseburger = {
+		icon = generic_operation
+		available = {
+			has_war_with = USA
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = USA
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_fried_rice = {
+		icon = generic_operation
+		available = {
+		     OR = {
+                has_war_with = CHI
+                has_war_with = GXC
+				has_war_with = YUN
+				has_war_with = PRC
+				has_war_with = XSM
+				has_war_with = SIK
+			    has_war_with = SHX
+			}
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = CHI 
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = GXC
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = YUN
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = PRC
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = XSM
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = SIK
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = SHX
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_baguette = {
+		icon = generic_operation
+		available = {
+			has_war_with = FRA
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = FRA
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_takoyaki = {
+		icon = generic_operation
+		available = {
+			has_war_with = JAP
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = JAP
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_vada_pav = {
+		icon = generic_operation
+		available = {
+			has_war_with = RAJ
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = RAJ
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_pavlova = {
+		icon = generic_operation
+		available = {
+			 OR = {
+                has_war_with = AST
+                has_war_with = NZL
+			}
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = AST
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		targeted_modifier = {
+			tag = NZL
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+	KSK_operation_pelmeni = {
+		icon = generic_operation
+		available = {
+			has_war_with = SOV
+		}
+		visible = {
+			has_completed_focus = KSK_war_plans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 360
+		cost = 50
+		modifier = {
+			
+		}
+		targeted_modifier = {
+			tag = SOV
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+}
+
+KSK_economic_revital_category = {
+	KSK_devalue_ryo = {
+	
+		icon = GFX_decision_devalue_ryo
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = KSK_economic_recovery_tt
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 50
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.35
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = ksk_economy_crisis_3
+				}
+				swap_ideas = {
+					remove_idea = ksk_economy_crisis_3
+					add_idea = ksk_economy_crisis_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ksk_economy_crisis_4
+				}
+				swap_ideas = {
+					remove_idea = ksk_economy_crisis_4
+					add_idea = ksk_economy_crisis_5
+				}
+			}
+			clr_country_flag = KSK_economic_recovery_tt
+		}
+		
+		complete_effect = {
+			set_country_flag = KSK_economic_recovery_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_foreign_investments = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = KSK_economic_recovery_tt
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 50
+		days_remove = 30
+		modifier = {
+			consumer_goods_factor = 0.35
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = ksk_economy_crisis_3
+				}
+				swap_ideas = {
+					remove_idea = ksk_economy_crisis_3
+					add_idea = ksk_economy_crisis_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ksk_economy_crisis_4
+				}
+				swap_ideas = {
+					remove_idea = ksk_economy_crisis_4
+					add_idea = ksk_economy_crisis_5
+				}
+			}
+			clr_country_flag = KSK_economic_recovery_tt
+		}
+		
+		complete_effect = {
+			set_country_flag = KSK_economic_recovery_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_worker_incentive = {
+	
+		icon = GFX_decision_generic_speech
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = KSK_economic_recovery_tt
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 80
+		days_remove = 30
+		modifier = {
+			political_power_factor = -0.1
+		}
+		remove_effect = {
+			add_ideas = ksk_economy_crisis_worker_incentive
+			clr_country_flag = KSK_economic_recovery_tt
+		}
+		
+		complete_effect = {
+			set_country_flag = KSK_economic_recovery_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_local_production = {
+	
+		icon = GFX_decision_generic_merge_plant_materiel
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			NOT = {
+				has_country_flag = KSK_economic_recovery_tt
+			}
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 80
+		days_remove = 30
+		modifier = {
+			political_power_factor = -0.1
+		}
+		remove_effect = {
+			935 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = ksk_economy_crisis_local_production
+			clr_country_flag = KSK_economic_recovery_tt
+		}
+		
+		complete_effect = {
+			set_country_flag = KSK_economic_recovery_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_economic_revital_final = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_idea = ksk_economy_crisis_5
+			has_idea = ksk_economy_crisis_worker_incentive
+			has_idea = ksk_economy_crisis_local_production
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 100
+		days_remove = 50
+		modifier = {
+			consumer_goods_factor = 0.1
+			stability_weekly = 0.05
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = ksk_economy_crisis_5
+				add_idea = ksk_economy_crisis_final
+			}
+			swap_ideas = {
+				remove_idea = ksk_economy_crisis_worker_incentive
+				add_idea = ksk_economy_crisis_worker_incentive_2
+			}
+			swap_ideas = {
+				remove_idea = ksk_economy_crisis_local_production
+				add_idea = ksk_economy_crisis_local_production_2
+			}
+			clr_country_flag = KSK_economic_recovery_tt
+		}
+		
+		complete_effect = {
+			set_country_flag = KSK_economic_recovery_tt
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+
+KSK_economic_improvement_category = {
+	KSK_arms_factory = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {	#activated by effect
+			always = no
+		}
+		
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		
+		fire_only_once = yes
+		
+		state_target = yes
+		
+		visible = {
+			original_tag = KSK
+			FROM = {
+				NOT = {
+					has_state_flag = KSK_arms_factory_large_flag
+				}
+			}
+		}
+		
+		cost = 20
+		days_remove = 70
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KSK_arms_factory_built_flag
+			}
+			add_political_power = 15
+		}
+		
+		complete_effect = {
+			FROM = {
+				set_state_flag = KSK_arms_factory_flag
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_arms_factory_large = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {	#activated by effect
+			always = no
+		}
+		
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 6
+		}
+		
+		fire_only_once = yes
+		
+		state_target = yes
+		
+		visible = {
+			original_tag = KSK
+			FROM = {
+				NOT = {
+					has_state_flag = KSK_arms_factory_flag
+				}
+			}
+		}
+		
+		cost = 50
+		days_remove = 65
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = KSK_arms_factory_built_flag
+			}
+			add_political_power = 25
+		}
+		
+		complete_effect = {
+			FROM = {
+				set_state_flag = KSK_arms_factory_large_flag
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	
+	KSK_civilian_factory = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {	#activated by effect
+			always = no
+		}
+		
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 2
+		}
+		
+		fire_only_once = yes
+		
+		state_target = yes
+		
+		visible = {
+			original_tag = KSK
+			FROM = {
+				NOT = {
+					has_state_flag = KSK_civilian_factory_large_flag
+				}
+			}
+		}
+		
+		cost = 20
+		days_remove = 70
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KSK_civilian_factory_built_flag
+			}
+			add_political_power = 15
+		}
+		
+		complete_effect = {
+			FROM = {
+				set_state_flag = KSK_civilian_factory_flag
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_civilian_factory_large = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {	#activated by effect
+			always = no
+		}
+		
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 6
+		}
+		
+		fire_only_once = yes
+		
+		state_target = yes
+		
+		visible = {
+			original_tag = KSK
+			FROM = {
+				NOT = {
+					has_state_flag = KSK_civilian_factory_flag
+				}
+			}
+		}
+		
+		cost = 50
+		days_remove = 65
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = KSK_civilian_factory_built_flag
+			}
+			add_political_power = 25
+		}
+		
+		complete_effect = {
+			FROM = {
+				set_state_flag = KSK_civilian_factory_large_flag
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	
+	KSK_rural_railway = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+			has_completed_focus = KSK_industry_2c
+		}
+		
+		cost = 100
+		days_remove = 65
+		modifier = {
+			civilian_factory_use = 4
+		}
+		remove_effect = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = KSK
+						add = 2
+					}
+				}
+				fallback = no
+				path = { 4401 1396 1423 12288 12260 4639 1324 4302 }
+				start_province = 4401
+				target_province = 4302
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = KSK
+						add = 2
+					}
+				}
+				fallback = no
+				path = { 7432 10289 7319 1324 12447 }
+				start_province = 7432
+				target_province = 12447
+			}
+			add_building_construction = {
+				type = supply_node
+				level = 1
+				instant_build = yes
+				province = 1324
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = -50
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	
+	KSK_rural_development = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {	#activated by effect
+			always = no
+		}
+		
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+		}
+		
+		fire_only_once = yes
+		
+		state_target = yes
+		
+		visible = {
+			original_tag = KSK
+			has_completed_focus = KSK_industry_2a
+		}
+		
+		cost = 50
+		days_remove = 70
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				random_list = {
+					10 = { add_stability = 0.2 }
+					10 = { add_stability = 0.1 }
+					10 = { add_stability = -0.1 }
+					10 = { add_stability = -0.2 }
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}
+
+KSK_prospect_for_resources = {
+	KSK_oil_resource_development = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_tech = oil_processing
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			random_owned_state = {
+				if = {
+					limit = {
+						is_core_of = KSK
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_oil_resource_development_2 = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_tech = improved_oil_processing
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+			has_tech = improved_oil_processing
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			random_owned_state = {
+				if = {
+					limit = {
+						is_core_of = KSK
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_oil_resource_development_3 = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_tech = advanced_oil_processing
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+			has_tech = advanced_oil_processing
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			random_owned_state = {
+				if = {
+					limit = {
+						is_core_of = KSK
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_oil_resource_development_4 = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+		}
+		
+		available = {
+			has_tech = modern_oil_processing
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+			has_tech = modern_oil_processing
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			random_owned_state = {
+				if = {
+					limit = {
+						is_core_of = KSK
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_raw_resource_development_wakaru = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+		}
+		
+		available = {
+			has_tech = excavation1
+			940 = { is_owned_and_controlled_by = KSK }
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = 17
+				state = 940
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_raw_resource_development_wakaru_2 = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+		}
+		
+		available = {
+			has_tech = excavation2
+			940 = { is_owned_and_controlled_by = KSK }
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = tungsten
+				amount = 15
+				state = 940
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_raw_resource_development_yoyichi = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+		}
+		
+		available = {
+			has_tech = excavation2
+			936 = { is_owned_and_controlled_by = KSK }
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = 24
+				state = 936
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+	KSK_raw_resource_development_tengoku = {
+	
+		icon = GFX_decision_generic_decision
+		
+		allowed = {
+			original_tag = KSK
+			has_completed_focus = KSK_resource_3
+		}
+		
+		available = {
+			has_tech = excavation2
+			936 = { is_owned_and_controlled_by = KSK }
+		}
+		
+		fire_only_once = yes
+		
+		visible = {
+			original_tag = KSK
+		}
+		
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = aluminium
+				amount = 16
+				state = 936
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}

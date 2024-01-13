@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "Christians"
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Christian"
+		location = 1423
+		division_template = "Christians"
+	}
+	division = {
+		name = "2. Christian"
+		location = 12133
+		division_template = "Christians"
+	}
+	division = {
+		name = "3. Christian"
+		location = 7303  # Ulm
+		division_template = "Christians"
+	}
+	division = {
+		name = "4. Christian"
+		location = 4341
+		division_template = "Christians"
+	}
+	division = {
+		name = "5. Christian"
+		location = 7432
+		division_template = "Christians"
+	}
+	division = {
+		name = "6. Christian"
+		location = 7404
+		division_template = "Christians"
+	}
+	division = {
+		name = "7. Christian"
+		location = 10232
+		division_template = "Christians"
+	}
+}

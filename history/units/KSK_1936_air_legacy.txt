@@ -1,0 +1,28 @@
+﻿#AIRCRAFT
+air_wings = {
+
+	# 2 Hikodan -- Dalian
+	935 = {
+		# 3 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_0 = {
+			owner = "KSK" 
+			amount = 100
+		}
+	}		
+}
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+}

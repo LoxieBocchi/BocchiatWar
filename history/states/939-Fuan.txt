@@ -1,0 +1,33 @@
+state={
+	id=939
+	name="STATE_939"
+	
+	resources={
+		rubber=120
+		oil=6
+	}
+	
+	history={
+		owner = KSK
+		add_core_of = KSK
+		add_core_of = CAM
+		victory_points = {
+			4302 5
+		}
+		victory_points = {
+			7645 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1324 1620 4302 4639 7645 10467 12447 12460 12475 
+	}
+	manpower=1230401
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

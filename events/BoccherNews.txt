@@ -1,0 +1,177 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = kessoku_news
+
+# Marco Polo Bridge I
+news_event = {
+	id = kessoku_news.1
+	title = "Fall of Shimokitazawa"
+	desc = kessoku_news.1.d
+	picture = GFX_news_event_shimokitazawa_fall
+	
+	major = yes
+	
+	trigger = {
+		935 = { is_controlled_by = JAP }
+		935 = { is_owned_by = KSK }
+		JAP = { has_war_with = KSK }
+		NOT = { has_global_flag = fall_of_shimokitazawa }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_shimokitazawa
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = "The will of a man to live is only limited to how much he has to dream."
+	}
+}
+news_event = {
+	id = kessoku_news.2
+	title = "Hitori Gotoh Dead!"
+	desc = kessoku_news.2.d
+	picture = GFX_news_event_hitori_reincarnated
+	
+	major = yes
+	
+	immediate = {
+		set_global_flag = hitori_gotoh_dead
+	}
+		
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let's hope that she met the real Angel of Shimokitazawa in Heaven."
+	}
+}
+news_event = {
+	id = kessoku_news.3
+	title = "Kessokan Civil War"
+	desc = kessoku_news.3.d
+	picture = GFX_news_event_group_photo
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "And how will this affect Chainsaw Man?"
+	}
+}
+news_event = {
+	id = kessoku_news.4
+	title = "Hell for Life"
+	desc = kessoku_news.4.d
+	picture = GFX_news_event_nijika_ryo_conflict
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What is this, Syria?"
+	}
+}
+news_event = {
+	id = kessoku_news.5
+	title = "Fall of Shimokitazawa"
+	desc = kessoku_news.5.d
+	picture = GFX_news_event_shimokitazawa_fall
+	
+	major = yes
+	
+	trigger = {
+		935 = { is_controlled_by = ENG }
+		935 = { is_owned_by = KSK }
+		ENG = { has_war_with = KSK }
+		NOT = { has_global_flag = fall_of_shimokitazawa }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_shimokitazawa_jap
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = "Bri'ish?!"
+	}
+}
+news_event = {
+	id = kessoku_news.6
+	title = "Church of Nijika seizes control over Kessoku!"
+	desc = kessoku_news.6.d
+	picture = GFX_news_event_nijika_angel
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Who is Nijika? for the blind, she's their vision..."
+	}
+}
+news_event = {
+	id = kessoku_news.7
+	title = "Democracy in Kessoku!"
+	desc = kessoku_news.7.d
+	picture = GFX_news_event_kitaura
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "It's too bright! Agh!"
+	}
+}
+news_event = {
+	id = kessoku_news.8
+	title = "Democracy in Kessoku!"
+	desc = kessoku_news.8.d
+	picture = GFX_news_event_kitaura
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "It's too bright! Agh!"
+	}
+}
+news_event = {
+	id = kessoku_news.9
+	title = "Dual Monarchy on Kessoku!"
+	desc = kessoku_news.9.d
+	picture = GFX_news_event_bokita_wtf
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "S-Say Gex?!"
+	}
+}
+news_event = {
+	id = kessoku_news.10
+	title = "New Leader on The Philippines!"
+	desc = kessoku_news.10.d
+	picture = GFX_news_event_kitaura
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What?!"
+	}
+}

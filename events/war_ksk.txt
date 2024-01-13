@@ -1,0 +1,134 @@
+﻿#######################
+### War events
+#######################
+
+add_namespace = war_ksk
+
+country_event = {
+	id = war_ksk.1
+	title = war_ksk.1.t
+	desc = war_ksk.1.desc
+	picture = GFX_report_event_kessoku_soldiers_fighting
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	is_triggered_only = yes
+	
+	#Accept defeat
+	option = {
+		name = war_ksk.1.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 25
+				OR = { 
+					4075 = {
+						is_fully_controlled_by = KSK
+					}
+					1185 = {
+						is_fully_controlled_by = KSK
+					}
+				}
+			}
+			modifier = {
+				factor = 90
+				728 = {
+					is_fully_controlled_by = KSK
+				}
+			}
+		}
+		FRA = {
+			add_stability = -0.05
+			add_war_support = -0.25
+			white_peace = KSK
+		}
+		KSK = {
+			transfer_state = 671
+			transfer_state = 670
+			transfer_state = 286
+		}
+		ENG = {
+            white_peace = KSK
+        }
+	}
+	#Refuse to lose
+	option = {
+		name = war_ksk.1.b
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 55
+				728 = {
+					is_fully_controlled_by = FRA
+				}
+			}
+		}
+		FRA = {
+			add_stability = -0.25
+			add_war_support = 0.15
+		}
+		set_global_flag = ksk_war_flag
+	}
+}
+
+#If Guangzhouwan falls
+country_event = {
+	id = war_ksk.2
+	title = war_ksk.2.t
+	desc = war_ksk.2.desc
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	#Accept defeat
+	option = {
+		name = war_ksk.2.a
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 80
+				has_war = yes
+				any_enemy_country = {
+					strength_ratio = { 
+						tag = ROOT 
+						ratio < 0.4
+					}
+				}
+			}
+		}
+		FRA = {
+			add_stability = 0.05
+			add_war_support = -0.2
+			white_peace = KSK
+		}
+		KSK = {
+			transfer_state = 671
+			transfer_state = 670
+			transfer_state = 286
+			transfer_state = 728
+		}
+		ENG = {
+            white_peace = KSK
+        }
+	}
+	
+	#Continue the war
+	option = {
+		name = war_ksk.2.b
+		ai_chance = {
+			factor = 20
+		}
+
+		if = {
+			limit = {
+				NOT = { has_government = communism }
+			}
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+}

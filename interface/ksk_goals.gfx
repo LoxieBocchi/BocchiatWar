@@ -1,0 +1,646 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+	
+	SpriteType = {
+	name = "GFX_goal_lonely_bocchi"
+	texturefile = "gfx/interface/goals/goal_ksk_lonely_bocchi.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_kessokan_groups"
+	texturefile = "gfx/interface/goals/goal_ksk_groups.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_befriend_group"
+	texturefile = "gfx/interface/goals/goal_ksk_befriend_groups.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_martyr_situation"
+	texturefile = "gfx/interface/goals/goal_ksk_martyr_situation.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_hunt_leaders"
+	texturefile = "gfx/interface/goals/goal_ksk_hunt_leaders.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_loyalty_kessoku"
+	texturefile = "gfx/interface/goals/goal_ksk_loyalty_kessoku.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_invite_leaders"
+	texturefile = "gfx/interface/goals/goal_ksk_invite_leaders.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_group"
+	texturefile = "gfx/interface/goals/goal_ksk_attack_groups.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_consolidate_power"
+	texturefile = "gfx/interface/goals/goal_ksk_consolidate_power.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_naturalization"
+	texturefile = "gfx/interface/goals/goal_ksk_naturalization.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_ksk_guitar_hero"
+	texturefile = "gfx/interface/goals/goal_ksk_guitar_hero.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_planet_red"
+	texturefile = "gfx/interface/goals/goal_ksk_planet_blue_loneliness.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kessoku_band"
+	texturefile = "gfx/interface/goals/goal_ksk_kessoku_band.dds"	
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_bocchi_flag"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_flag.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_heaven_for_death"
+	texturefile = "gfx/interface/goals/goal_ksk_heaven_death.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_convert_kessoku"
+	texturefile = "gfx/interface/goals/goal_ksk_convert_kessoku.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_proclaim_shimokitawa_empire"
+	texturefile = "gfx/interface/goals/goal_ksk_proclaim_shimokita.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_deal"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_deal_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_deal_yellow.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_fire"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_fire.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_deal"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_deal_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_deal_yellow.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_fire"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_fire.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_bocchi_fire"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_fire.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_bocchi_deal"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_bocchi_deal_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_deal_yellow.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_siam"
+	texturefile = "gfx/interface/goals/focus_attack_siam.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_heavenly_kingdom"
+	texturefile = "gfx/interface/goals/focus_attack_heavenly_kingdom.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_paragon_human"
+	texturefile = "gfx/interface/goals/goal_ksk_paragon_human_virtue.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_starry_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_starry_seika.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_starry"
+	texturefile = "gfx/interface/goals/goal_ksk_starry.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_examination_period"
+	texturefile = "gfx/interface/goals/goal_ksk_examination_over.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_examination_period_start"
+	texturefile = "gfx/interface/goals/goal_ksk_examination_start.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_rattle_rattle"
+	texturefile = "gfx/interface/goals/goal_ksk_rattle_rattle.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_interested"
+	texturefile = "gfx/interface/goals/goal_ksk_economic_opportunity.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_interested_blue"
+	texturefile = "gfx/interface/goals/goal_ksk_economic_opportunity_blue.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_instruments"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_instruments.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_guns"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_guns.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_angel"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_angel.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_fired"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_fired.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_weeds"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_weeds.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_gasoline_fire"
+	texturefile = "gfx/interface/goals/goal_ksk_gasoline_fire.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_mango_kamen"
+	texturefile = "gfx/interface/goals/goal_ksk_mango_kamen.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_mango_kamen_blue"
+	texturefile = "gfx/interface/goals/goal_ksk_mango_kamen_blue.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_mango_kamen_pink"
+	texturefile = "gfx/interface/goals/goal_ksk_mango_kamen_pink.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_beg"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_beg.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_nijika_ryo_alliance"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_nijika_alliance.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_nijika_fire"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_fire.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_start"
+	texturefile = "gfx/interface/goals/goal_ksk_kitaura_start.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_what"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_democratic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_dual_monarchy"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_dual_monarchy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_support"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_support_kitaura.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_support_monarchy"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_support_kitaura_monarchy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_popularity"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_popularity.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_popularity_monarchy"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_popularity_monarchy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kitaura"
+	texturefile = "gfx/interface/goals/goal_ksk_kitaura.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_pinoy"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_pinoy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_usa"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_us_support.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_kita_eng"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_england_support.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ryo_interested_kita"
+	texturefile = "gfx/interface/goals/goal_ksk_economic_opportunity_kita.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_bokita"
+	texturefile = "gfx/interface/goals/goal_ksk_bokita.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_bokita_dual_monarchy"
+	texturefile = "gfx/interface/goals/goal_ksk_bokita_dual.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_true_form"
+	texturefile = "gfx/interface/goals/goal_ksk_true_form.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_dual_monarchy_flag"
+	texturefile = "gfx/interface/goals/goal_ksk_dual_monarchy_establish.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_democracy_flag"
+	texturefile = "gfx/interface/goals/goal_ksk_democracy_establish.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_education_bocchi"
+	texturefile = "gfx/interface/goals/goal_ksk_education.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_education_kita"
+	texturefile = "gfx/interface/goals/goal_ksk_education_kita.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_infrastructure_kita"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_infrastructure_kita.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_education_dual"
+	texturefile = "gfx/interface/goals/goal_ksk_education_dual.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_bocchi_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_demand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijika_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_demand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_dual_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_dual_demand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_kita_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_demand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_kita_uber_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_demand_uber.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_dual_bocchi_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_dual_demand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_dual_nuke"
+	texturefile = "gfx/interface/goals/goal_ksk_dual_nuke.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_siam_bocchi"
+	texturefile = "gfx/interface/goals/focus_attack_siam_bocchi.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_siam_nijika"
+	texturefile = "gfx/interface/goals/focus_attack_siam_nijika.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_siam_kita"
+	texturefile = "gfx/interface/goals/focus_attack_siam_kita.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_attack_france_bocchi"
+	texturefile = "gfx/interface/goals/focus_attack_france_bocchi.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_kita_holland"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_holland.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_uk_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_uk_nijika.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_angelical_stability_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_angelical_stability.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_education_nijika"
+	texturefile = "gfx/interface/goals/goal_ksk_education_nijika.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_political_turmoil"
+	texturefile = "gfx/interface/goals/goal_ksk_political_turmoil.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_demand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_prepare_bocchi"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_prepare.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_prepare_ryo"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_prepare.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_nuke"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_nuke.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_education"
+	texturefile = "gfx/interface/goals/goal_ksk_education_ryo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_infrastructure"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_infrastructure_blue.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_japan_agreement"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_japan_agreement.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_pacific_deal"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_pacific_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_straight"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_straight.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_japanese_kill"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_japanese_kill.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_bonkers"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_she_knows.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_eng_deal"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_eng_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_kita_eliza"
+	texturefile = "gfx/interface/goals/goal_ksk_kita_eliza.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_balance"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_balance.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_angelical_stability"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_angelical_stability.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_ryo_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_demand_nijiryo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_nijika_demand"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_demand_nijiryo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_tere"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_tere.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_instruments"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_instruments.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_germany_agreement"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_ger_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_ryo_deal"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_deal.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_she_knows"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_she_knows.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijiryo_nijika_uncanny"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_nijiryo_uncanny.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_ryo_doms"
+	texturefile = "gfx/interface/goals/goal_ksk_ryo_dominates.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijika_doms"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_dominates.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_neutral_doms"
+	texturefile = "gfx/interface/goals/goal_ksk_nijiryo_neutral.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijika_uncanny"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_uncanny.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_nijika_beg_papal"
+	texturefile = "gfx/interface/goals/goal_ksk_nijika_beg.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_bocchi_naoki"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_naoki.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_bocchi_michiyo"
+	texturefile = "gfx/interface/goals/goal_ksk_bocchi_michiyo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_army_goal"
+	texturefile = "gfx/interface/goals/goal_ksk_army_goal.dds"			
+	}
+	
+	SpriteType = { 
+		name = "GFX_goal_supremacy_of_sky"
+		texturefile = "gfx/interface/goals/goal_KSK_supremacy_of_sky.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_goal_supremacy_of_sea"
+		texturefile = "gfx/interface/goals/goal_KSK_supremacy_of_navy.dds"
+
+	}
+	SpriteType = {
+	name = "GFX_goal_ksk_economic_recovery"
+	texturefile = "gfx/interface/goals/goal_ksk_economic_recovery.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_KSK_steel_for_ships"
+	texturefile = "gfx/interface/goals/goal_KSK_steel_for_ships.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_military_industry_3"
+	texturefile = "gfx/interface/goals/focus_military_industry_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_ksk_economic_recovery_2"
+	texturefile = "gfx/interface/goals/goal_ksk_economic_recovery_2.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_army_center"
+	texturefile = "gfx/interface/goals/goal_KSK_army_center.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_rural_sector"
+	texturefile = "gfx/interface/goals/goal_KSK_rural_sector.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_urban_sector"
+	texturefile = "gfx/interface/goals/goal_KSK_urban_sector.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_capital_railway"
+	texturefile = "gfx/interface/goals/goal_KSK_capital_railway.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_rural_railway"
+	texturefile = "gfx/interface/goals/goal_KSK_rural_railway.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_autobocchi"
+	texturefile = "gfx/interface/goals/goal_KSK_autobocchi.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_gibson"
+	texturefile = "gfx/interface/goals/goal_KSK_gibson.dds"
+	}
+	SpriteType = {
+	name = "GFX_goal_KSK_yamaha"
+	texturefile = "gfx/interface/goals/goal_KSK_yamaha.dds"
+	}
+}

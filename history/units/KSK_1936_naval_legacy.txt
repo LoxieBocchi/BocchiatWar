@@ -1,0 +1,51 @@
+﻿
+##### OOB #####
+units = {
+### IJN ###
+
+	fleet = {
+		name = "Taiheiyo Kantai"			
+		naval_base = 2489  # Truk
+		#Truk
+		task_force = {
+			name = "Nanpo Yuso Sendan"
+			location = 2489  # Truk
+			ship = { name = "Oite" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+			ship = { name = "Hayate" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+			ship = { name = "Yugao" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+			#Former Dai 2 Kuchikutai
+			ship = { name = "Minekaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+			ship = { name = "Sawakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+			ship = { name = "Okikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+			ship = { name = "Yakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = KSK} } }
+		}
+	}
+}
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	
+### Ongoing Naval Production Jan 1 1936 ###
+		# BB (x1): "Hiei"
+		add_equipment_production = {				
+			equipment = {
+				type = battleship_1
+				creator = "JAP"
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.5
+			amount = 2
+		}		
+}

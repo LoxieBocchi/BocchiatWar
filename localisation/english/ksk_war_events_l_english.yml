@@ -1,0 +1,9 @@
+﻿l_english:
+ war_ksk.1.t:0 "Kessoku has proclaimed victory!"
+ war_ksk.1.desc:0 "We have lost Hanoi in our war against the Kessokan onslaught, leaving our port in Kouang-Tcheou-Wan to be the only territory we hold in the Far East. We may continue the war against these aggressors from there, however I'm afraid we aren't in the best shape to let this war drag on any longer."
+ war_ksk.1.a:0 "This war was pointless to begin with. For now, we will let them win. For now.."
+ war_ksk.1.b:0 "Le fiel! This war is far from over, rally our men for a counter-offensive!" 
+ war_ksk.2.t:0 "Kessoku has captured Guangzhouwan!"
+ war_ksk.2.desc:0 "Without Kouang-Tcheou-Wan, we cannot mount a proper counter-offensive into Indochina anymore. We're at the brink of collapse, pursuing this war will not benefit us any longer!"
+ war_ksk.2.a:0 "It's not worth embarrassing ourselves any further."
+ war_ksk.2.b:0 "Push on! We can still use our Indian ports!"
